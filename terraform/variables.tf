@@ -12,9 +12,3 @@ variable "location" {
   description = "The Azure location where all resources in this example should be created"
   default     = "westeurope"
 }
-
-variable "my_sql_master_password" {
-  description = "MySql master password"
-  default = "mlkjgdfdsgdfbvcgjkhljmleztmljktrenkvsdpiuohbcvjkbgrsdtrezg"
-}
-
